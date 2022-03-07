@@ -75,9 +75,9 @@ void loop() {
 //    demo.reset();
 //}
 
-//    if (motorState) {
-//        startMotor = true;
-//    }
+    if (motorState) {
+        startMotor = true;
+    }
 
     if (startMotor == false) {
         digitalWrite(motA, LOW);
